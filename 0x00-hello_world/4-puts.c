@@ -7,6 +7,8 @@
 # include <stdio.h>
 int main(void)
 {	/*Declaration:     int puts(const char *str);*/
-	puts("\"Programming is like building a multilingual puzzle");
+	char str1[] = "\"Programming is like building ";
+	char str2[] = "a multilingual puzzle";
+	puts(strcat(str1,str2));
 	return (0);
 }
