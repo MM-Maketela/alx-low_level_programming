@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <string.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: A program that prints _putchar.
@@ -6,6 +7,13 @@
  */
 int main(void)
 {
-	printf("%s\n", "_putchar");
+	char string [] = "_putchar";
+	size_t i;
+
+	for (i = 0; i < sizeof(string); i++)
+	{
+		_putchar(string[i]);
+	}
+	putchar('\n');
 	return (0);
 }
