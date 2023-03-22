@@ -8,9 +8,9 @@
 int main(void)
 {
 	char string[] = "_putchar";
-	size_t i;
+	int i;
 
-	for (i = 0; i < sizeof(string); i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(string[i]);
 	}
