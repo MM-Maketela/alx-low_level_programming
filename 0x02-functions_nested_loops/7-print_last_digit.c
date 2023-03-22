@@ -9,12 +9,12 @@ int print_last_digit(int n)
 {
 	int x;
 	int y;
-	
+
 	if (n < 0)
 	{
 		y = n * -1;
 	}
-	else 
+	else
 	{
 		y = n;
 	}
