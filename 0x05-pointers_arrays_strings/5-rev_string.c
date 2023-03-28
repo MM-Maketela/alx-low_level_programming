@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int count;
 	char tempChar;
-	int index; 
+	int index;
 
 	count = 0;
 
@@ -18,7 +18,7 @@ void rev_string(char *s)
 		count++;
 	}
 
-	for (index = count - 1; index >= count / 2; index-- )
+	for (index = count - 1; index >= count / 2; index--)
 	{
 		tempChar = s[index];
 		s[index] = s[count - index - 1];
